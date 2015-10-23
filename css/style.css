@@ -367,7 +367,7 @@ content: "\f111";
   border: 2px solid #000000;
   background: #FFFFFF;
 }
-/*-- welcome --*/
+/*--  --*/
 .welcome{
   padding: 4em 0;
   text-align: center;
@@ -385,13 +385,8 @@ p.caption{
   font-style: italic;
   color: #cbcbcb;
 }
-.welcome-info p.welcome-text{
-  font-size: .9em;
-  margin: 2em auto 0;
-  color: #919191;
-  line-height: 1.8em;
-  width: 52%;
-}
+
+
 /*-- offer --*/
 .offer {
   border-top: solid 1px #919191;
@@ -1102,9 +1097,7 @@ span.menu {
 	.news-grid:nth-child(2){
 	  margin: 2em 0;
 	}
-	.welcome-info p.welcome-text {
-		width: 73%;
-	}
+	
 	.family-grid {
 	  float: left;
 	  width: 33.33%;
