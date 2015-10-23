@@ -6581,4 +6581,13 @@ button.close {
     display: none !important;
   }
 }
+
+/*--ABOUT--*/
+.1 .2 .3{
+  display: block;
+  margin: 0 auto;
+}
+.space{
+  width:200px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
