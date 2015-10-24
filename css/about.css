@@ -1,10 +1,10 @@
 .member{
 	width: 150px;
 	height: 150px;
-	background-image: url('image/pic1.jpg');
+	background-image: url('images/pic1.jpg');
 	background-size: cover;
 }
 .member:hover{
-	background-image: url('image/pic11.jpg');
+	background-image: url('imagsespic11.jpg');
 	background-size: cover;
 }
