@@ -1,9 +1,14 @@
 .team{
 	height: 900px;
 }
+.member1{
+	height: 150px;
+	width: 150px;
+	background-image: url('../images/pic1.jpg');
+	background-size: cover;
+}
 
-
-.member1 img{z-index: 0;
+.member img{z-index: 0;
 	width: 150px;
 	height: 150px;
 	display: block;
