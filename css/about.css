@@ -15,11 +15,12 @@
 	z-index: 10;
 }
 .line{
-	height: 200px;
+	height: 220px;
 	width: 70%;
 	position: relative;
 	display: block;
 	margin: 0 auto;
+	margin-bottom: 10px;
 }
 .member2{
 	position: absolute;
