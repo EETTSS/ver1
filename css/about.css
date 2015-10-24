@@ -24,7 +24,6 @@
 	margin: 0 auto;
 	background-image: url('../images/pic2.jpg');
 	background-size: cover;
-	float: left;
 	margin-left: 10%;
 }
 .member2:hover{
@@ -40,7 +39,7 @@
 	margin: 0 auto;
 	background-image: url('../images/pic3.jpg');
 	background-size: cover;
-	float: right;
+
 	margin-right: 10%;
 }
 .member3:hover{
