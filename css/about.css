@@ -15,6 +15,7 @@
 	z-index: 10;
 }
 .line{
+	height: 200px;
 	width: 70%;
 	position: relative;
 	display: block;
@@ -54,7 +55,7 @@
 	
 	display: block;
 	width: 70%;
-	margin: 0 auto
+	margin: 0 auto;
 }
 
 .member4{
