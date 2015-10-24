@@ -60,7 +60,7 @@
 	margin: 0 auto;
 	background-image: url('../images/pic4.jpg');
 	background-size: cover;
-	float: right;
+
 }
 .member4:hover{
 	background-image: url('../images/pic44.jpg');
@@ -75,7 +75,7 @@
 	margin: 0 auto;
 	background-image: url('../images/pic5.jpg');
 	background-size: cover;
-	float: right;
+
 }
 .member5:hover{
 	background-image: url('../images/pic55.jpg');
