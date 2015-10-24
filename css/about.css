@@ -17,6 +17,8 @@
 .line{
 	display: block;
 	display: inline;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .member2{
 	height: 200px;
