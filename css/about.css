@@ -1,44 +1,9 @@
-.1 img{
-	
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.i2{
-	position: absolute;
-}
-
-.i3{
-	position: absolute;
-	display: block;
-	margin: 0 auto;
-}
-
-.i4{
-	position: absolute;
-}
-
-.i5{
-	position: absolute;
-}
-
-.i12 .i22 .i33 .i44 .i55{
-	display: none;
-}
-
-.team img{
+.member{
 	width: 150px;
+	background-image: url('image/pic1.jpg');
+	background-size: cover;
 }
-.team{
-	height: 1000px;
-}
-
-.1 .2 .3{
-  display: block;
-  margin: 0 auto;
-}
-
-.space{
-  width:150px;
+.member:hover{
+	background-image: url('image/pic11.jpg');
+	background-size: cover;
 }
