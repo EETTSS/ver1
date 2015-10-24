@@ -26,6 +26,7 @@
 	background-image: url('../images/pic2.jpg');
 	background-size: cover;
 	margin-left: 10%;
+	float: left;
 }
 .member2:hover{
 	background-image: url('../images/pic22.jpg');
@@ -40,7 +41,7 @@
 	margin: 0 auto;
 	background-image: url('../images/pic3.jpg');
 	background-size: cover;
-
+	float: right;
 	margin-right: 10%;
 }
 .member3:hover{
@@ -60,7 +61,7 @@
 	margin: 0 auto;
 	background-image: url('../images/pic4.jpg');
 	background-size: cover;
-
+	float: left;
 }
 .member4:hover{
 	background-image: url('../images/pic44.jpg');
@@ -75,7 +76,7 @@
 	margin: 0 auto;
 	background-image: url('../images/pic5.jpg');
 	background-size: cover;
-
+	float: right;
 }
 .member5:hover{
 	background-image: url('../images/pic55.jpg');
