@@ -61,6 +61,7 @@
 	display: block;
 	background-image: url('../images/pic4.jpg');
 	background-size: cover;
+	float: left;
 }
 .member4:hover{
 	background-image: url('../images/pic44.jpg');
@@ -74,6 +75,7 @@
 	display: block;
 	background-image: url('../images/pic5.jpg');
 	background-size: cover;
+	float: right;
 }
 .member5:hover{
 	background-image: url('../images/pic55.jpg');
