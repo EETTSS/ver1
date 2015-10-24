@@ -5,9 +5,11 @@
 
 .member1 img{z-index: 0;
 	width: 150px;
-	height: 150px;}
+	height: 150px;
+	display: block;
+	margin: 0 auto;}
 .member1:hover{
-	background-image: url('images/pic11.jpg');
+	background-image: url('../images/pic11.jpg');
 	background-size: cover;
 	z-index: 10;
 }
