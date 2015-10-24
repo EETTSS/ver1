@@ -4,15 +4,12 @@
 .member1{
 	height: 150px;
 	width: 150px;
+	display: block;
+	margin: 0 auto;
 	background-image: url('../images/pic1.jpg');
 	background-size: cover;
 }
 
-.member img{z-index: 0;
-	width: 150px;
-	height: 150px;
-	display: block;
-	margin: 0 auto;}
 .member1:hover{
 	background-image: url('../images/pic11.jpg');
 	background-size: cover;
