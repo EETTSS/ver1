@@ -51,17 +51,20 @@
 }
 
 .line2{
-	width: 50%;
+	position: relative;
+	display: block;
+	width: 70%;
 	margin: 0 auto
 }
 
 .member4{
+	position: absolute;
 	height: 200px;
 	width: 200px;
 	display: block;
 	background-image: url('../images/pic4.jpg');
 	background-size: cover;
-	float: left;
+	left:0;
 }
 .member4:hover{
 	background-image: url('../images/pic44.jpg');
@@ -70,12 +73,13 @@
 }
 
 .member5{
+	position: absolute;
 	height: 200px;
 	width: 200px;
 	display: block;
 	background-image: url('../images/pic5.jpg');
 	background-size: cover;
-	float: right;
+	right:0;
 }
 .member5:hover{
 	background-image: url('../images/pic55.jpg');
