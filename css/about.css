@@ -58,12 +58,12 @@
 	width: 200px;
 	display: block;
 	margin: 0 auto;
-	background-image: url('../images/pic3.jpg');
+	background-image: url('../images/pic4.jpg');
 	background-size: cover;
 	float: right;
 }
 .member4:hover{
-	background-image: url('../images/pic33.jpg');
+	background-image: url('../images/pic44.jpg');
 	background-size: cover;
 	z-index: 10;
 }
@@ -73,12 +73,12 @@
 	width: 200px;
 	display: block;
 	margin: 0 auto;
-	background-image: url('../images/pic3.jpg');
+	background-image: url('../images/pic5.jpg');
 	background-size: cover;
 	float: right;
 }
 .member5:hover{
-	background-image: url('../images/pic33.jpg');
+	background-image: url('../images/pic55.jpg');
 	background-size: cover;
 	z-index: 10;
 }
