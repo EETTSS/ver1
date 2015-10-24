@@ -1,9 +1,9 @@
-.member{
+.member1{
 	width: 150px;
 	height: 150px;
 }
-.member img{z-index: 0;}
-.member:hover{
+.member1 img{z-index: 0;}
+.member1:hover{
 	background-image: url('imagsespic11.jpg');
 	background-size: cover;
 	z-index: 10;
