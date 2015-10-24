@@ -14,7 +14,9 @@
 	background-size: cover;
 	z-index: 10;
 }
-
+.line{
+	display: inline-block;
+}
 .member2{
 	height: 250px;
 	width: 250px;
@@ -22,7 +24,6 @@
 	margin: 0 auto;
 	background-image: url('../images/pic2.jpg');
 	background-size: cover;
-	display: inline;
 }
 .member2:hover{
 	background-image: url('../images/pic22.jpg');
@@ -41,7 +42,6 @@
 	margin: 0 auto;
 	background-image: url('../images/pic3.jpg');
 	background-size: cover;
-	display: inline;
 }
 .member3:hover{
 	background-image: url('../images/pic33.jpg');
