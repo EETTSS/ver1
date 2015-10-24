@@ -79,12 +79,12 @@
 	height: 200px;
 	width: 200px;
 	display: block;
-	background-image: url('../images/pic5.jpg');
+	background-image: url('../images/pic5.png');
 	background-size: cover;
 	float:right;
 }
 .member5:hover{
-	background-image: url('../images/pic55.jpg');
+	background-image: url('../images/pic55.png');
 	background-size: cover;
 	z-index: 10;
 }
