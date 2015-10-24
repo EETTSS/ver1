@@ -6,17 +6,18 @@
 	width: 200px;
 	display: block;
 	margin: 0 auto;
-	background-image: url('../images/pic1.jpg');
+	background-image: url('../images/pic1.png');
 	background-size: cover;
 }
 .member1:hover{
-	background-image: url('../images/pic11.jpg');
+	background-image: url('../images/pic11.png');
 	background-size: cover;
 	z-index: 10;
 }
 .line{
 	height: 220px;
-	width: 70%;
+	width: 6
+	0%;
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -27,12 +28,12 @@
 	height: 200px;
 	width: 200px;
 	display: block;
-	background-image: url('../images/pic2.jpg');
+	background-image: url('../images/pic2.png');
 	background-size: cover;
 	left:0;
 }
 .member2:hover{
-	background-image: url('../images/pic22.jpg');
+	background-image: url('../images/pic22.png');
 	background-size: cover;
 	z-index: 10;
 }
@@ -42,12 +43,12 @@
 	height: 200px;
 	width: 200px;
 	display: block;
-	background-image: url('../images/pic3.jpg');
+	background-image: url('../images/pic3.png');
 	background-size: cover;
 	right:0;
 }
 .member3:hover{
-	background-image: url('../images/pic33.jpg');
+	background-image: url('../images/pic33.png');
 	background-size: cover;
 	z-index: 10;
 }
@@ -64,12 +65,12 @@
 	height: 200px;
 	width: 200px;
 	display: block;
-	background-image: url('../images/pic4.jpg');
+	background-image: url('../images/pic4.png');
 	background-size: cover;
 	float:left;
 }
 .member4:hover{
-	background-image: url('../images/pic44.jpg');
+	background-image: url('../images/pic44.png');
 	background-size: cover;
 	z-index: 10;
 }
