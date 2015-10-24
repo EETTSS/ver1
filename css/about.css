@@ -1,0 +1,36 @@
+.i1{
+	position: absolute;
+}
+
+.i2{
+	position: absolute;
+}
+
+.i3{
+	position: absolute;
+}
+
+.i4{
+	position: absolute;
+}
+
+.i5{
+	position: absolute;
+}
+
+.i12 .i22 .i33 .i44 .i55{
+	display: none;
+}
+
+.team img{
+	width: 300px;
+}
+
+.1 .2 .3{
+  display: block;
+  margin: 0 auto;
+}
+
+.space{
+  width:300px;
+}
