@@ -1,7 +1,7 @@
 .team{
     background-image:url('../images/divbg.jpg');
     background-size:cover;
-	height: 900px;
+	height: 700px;
 }
 .member1{
 	height: 200px;
@@ -10,6 +10,7 @@
 	margin: 0 auto;
 	background-image: url('../images/pic1.png');
 	background-size: cover;
+	margin-top: 50px;
 }
 .member1:hover{
 	background-image: url('../images/pic11.png');
