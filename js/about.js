@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('button[type=submit]').click(function(){
 		jQuery.ajax({
 			data:{
-				id:$('input[name=id]').val
+				id:$('input[name=id]').val()
 			},
 			url:'do',
 			success:function(data){
