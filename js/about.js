@@ -1,3 +1,14 @@
 $(document).ready(function(){
-	$('.team background-image').fadeTo(0.5);
+	$('button[type=submit]').click(function(){
+		jQuery.ajax({
+			data:{
+				id:$('input[name=id]').val
+			},
+			url:'do',
+			success:function(data){
+				$('#mm').text(data);
+			}
+		});
+		$('#mm').html('loading');
+	});
 });
