@@ -1,8 +1,8 @@
 $(document).ready(function(){
-	$('button[type=submit]').click(function(){
+	$('button').click(function(){
 		jQuery.ajax({
 			data:{
-				id:$('input[name=id]').val()
+				id:$('input').val()
 			},
 			url:'do',
 			success:function(data){
@@ -10,5 +10,23 @@ $(document).ready(function(){
 			}
 		});
 		$('#mm').html('loading');
+	});
+
+	$('#untro div').fade();
+
+	$('.member1').click(functoin(){
+		$('.per1').fadeIn(300,1);
+	});
+	$('.member2').click(functoin(){
+		$('.per2').fadeIn(300,1);
+	});
+	$('.member3').click(functoin(){
+		$('.per3').fadeIn(300,1);
+	});
+	$('.member4').click(functoin(){
+		$('.per4').fadeIn(300,1);
+	});
+	$('.member5').click(functoin(){
+		$('.per5').fadeIn(300,1);
 	});
 });
