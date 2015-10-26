@@ -22,7 +22,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery-1.11.1.min.js"></script>
 </head>
 <body>
-	<!-- banner -->
+	
+    <!-- banner -->
 	<div class="banner top-banner">
 		<div class="logo">
 			<a href="index.html">EETTSS</a>
@@ -76,11 +77,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</p>
 				</div>
 				<div class="col-md-6 contact-form">
-					<form>
-						<input type="text" placeholder="Name" required="">
-						<input type="text" placeholder="Email" required="">
-						<input type="text" placeholder="Subject" required="">
-						<textarea placeholder="Message" required=""></textarea>
+					<form  action="save.php" method=post>
+						<input type="text" placeholder="Name" name="name">
+						<input type="text" placeholder="Email" name="email">
+						<input type="text" placeholder="Subject" name="subject">
+						<textarea placeholder="Message" name="message"></textarea>
 						<input type="submit" value="SEND">
 					</form>
 				</div>
@@ -117,6 +118,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
+
+
 	<!-- //footer -->
 </body>	
 </html>
