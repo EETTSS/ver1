@@ -1,9 +1,123 @@
-.member{
-	width: 150px;
-	background-image: url('image/pic1.jpg');
-	background-size: cover;
+.teamtop{
+	height: 40px;
 }
-.member:hover{
-	background-image: url('image/pic11.jpg');
+
+.team{
+	background-image:url('../images/divbg11.jpg');
+    background-size:cover;
+	height: 1300px;
+}
+.member1{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	background-image: url('../images/pic1.png');
 	background-size: cover;
+	margin-top: 50px;
+}
+.member1:hover{
+	background-image: url('../images/pic11.png');
+	background-size: cover;
+	z-index: 10;
+}
+.line{
+	height: 220px;
+	width: 60%;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.member2{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	display: block;
+	background-image: url('../images/pic2.png');
+	background-size: cover;
+	left:0;
+}
+.member2:hover{
+	background-image: url('../images/pic22.png');
+	background-size: cover;
+	z-index: 10;
+}
+
+.member3{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	display: block;
+	background-image: url('../images/pic3.png');
+	background-size: cover;
+	right:0;
+}
+.member3:hover{
+	background-image: url('../images/pic33.png');
+	background-size: cover;
+	z-index: 10;
+}
+
+.line2{
+	height: 400px;
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.member4{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	display: block;
+	background-image: url('../images/pic4.png');
+	background-size: cover;
+	left:0;
+}
+.member4:hover{
+	background-image: url('../images/pic44.png');
+	background-size: cover;
+	z-index: 10;
+}
+
+.member5{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	display: block;
+	background-image: url('../images/pic5.png');
+	background-size: cover;
+	right:0;
+}
+.member5:hover{
+	background-image: url('../images/pic55.png');
+	background-size: cover;
+	z-index: 10;
+}
+
+.intro{
+	height: 300px;
+	text-align: center;
+	display: block;
+	margin:0 auto;
+}
+.intro div{
+	background: rgba(0,0,0,0.6);
+	border-radius: 3;
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	display: none;
+}
+
+
+.talk{
+	background-image: url('../images/divbg1.jpg');
+	background-size: cover;
+	color: #ff0;
+	height: 500px;
+}
+.talktext{
+	height: 500px;
 }

@@ -1,8 +1,18 @@
 $(document).ready(function(){
-	$('.i12').mouseenter(function(){
-		$('i12').fadeIn(500,1);
+	$('button').click(function(){
+		$.ajax({
+			data:{
+				id:$('input').val()
+			},
+			url:'../do.php',
+			success:function(data){
+				$('.talktext').text(data);
+			}
 		});
-	$('.i12').mouseleave(function(){
-		$(this).fadeOut(500,0);
+		$('.talktext').html('loading');
+	});
+
+	$('.member1').click(function(){
+		$('per1').fadeIn('fast',1);
 	});
 });
