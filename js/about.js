@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('button').click(function(){
-		jQuery.ajax({
+		$.ajax({
 			data:{
 				id:$('input').val()
 			},
