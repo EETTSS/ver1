@@ -5,7 +5,7 @@
 .team{
 	background-image:url('../images/divbg11.jpg');
     background-size:cover;
-	height: 800px;
+	height: 1300px;
 }
 .member1{
 	height: 200px;
@@ -94,4 +94,18 @@
 	background-image: url('../images/pic55.png');
 	background-size: cover;
 	z-index: 10;
+}
+
+.intro{
+	height: 300px;
+}
+#intro div{
+	background-color: #000000;
+	background: rgba(0,0,0,0.6);
+	border-radius: 3;
+	height: 250px;
+	width: 80%;
+}
+#intro p{
+	text-align: center;
 }
