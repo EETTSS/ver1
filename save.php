@@ -5,7 +5,7 @@ $name = $email = $subject = $message = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = test_input($_POST["name"]);
   $email = test_input($_POST["email"]);
-  $subect = test_input($_POST["subject"]);
+  $subject = test_input($_POST["subject"]);
   $message = test_input($_POST["message"]);
   
 }
@@ -18,11 +18,12 @@ function test_input($data) {
 }
 
 echo "<h2>Your Input:</h2>";
+echo "<br>Your name:"
 echo $name;
-echo "<br>";
+echo "<br>Your email:";
 echo $email;
-echo "<br>";
+echo "<br>Your subject";
 echo $subject;
-echo "<br>";
+echo "<br>Your message";
 echo $message;
 ?>
