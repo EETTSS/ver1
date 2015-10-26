@@ -13,7 +13,7 @@ $(document).ready(function(){
 	});
 
 	$('.member1').click(functoin(){
-		$('.per1').fadeIn(300,1);
+		$('.per1').fadeIn('fast',1);
 	});
 	$('.member2').click(functoin(){
 		$('.per2').fadeIn(300,1);
