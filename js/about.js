@@ -12,19 +12,7 @@ $(document).ready(function(){
 		$('#mm').html('loading');
 	});
 
-	$('.member1').click(functoin(){
-		$('.per1').fadeIn('fast',1);
-	});
-	$('.member2').click(functoin(){
-		$('.per2').fadeIn(300,1);
-	});
-	$('.member3').click(functoin(){
-		$('.per3').fadeIn(300,1);
-	});
-	$('.member4').click(functoin(){
-		$('.per4').fadeIn(300,1);
-	});
-	$('.member5').click(functoin(){
-		$('.per5').fadeIn(300,1);
+	$('.member1').click(function(){
+		$('per1').fadeIn('fast',1);
 	});
 });
