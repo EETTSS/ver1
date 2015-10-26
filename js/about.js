@@ -9,7 +9,7 @@ $(document).ready(function(){
 				$('.talktext').text(data);
 			}
 		});
-		$('#mm').html('loading');
+		$('.talktext').html('loading');
 	});
 
 	$('.member1').click(function(){
