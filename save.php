@@ -1,7 +1,28 @@
-<?php 
-  echo "<br>你的大名是：".$name; 
-  echo "<br>你的email：".$email; 
-  echo "<br>你的主題是：".$subject; 
-  echo "<br>你的留言是: ".$message;
-  echo "數據傳送中唷.....";
+<?php
+// define variables and set to empty values
+$name = $email = $subject = $message = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = test_input($_POST["name"]);
+  $email = test_input($_POST["email"]);
+  $subect = test_input($_POST["subject"]);
+  $message = test_input($_POST["message"]);
+  
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+echo "<h2>Your Input:</h2>";
+echo $name;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $subject;
+echo "<br>";
+echo $subject;
 ?>
