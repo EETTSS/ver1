@@ -25,7 +25,7 @@ html, body{
    src: url(../fonts/Norican-Regular.ttf)format('truetype');
 }
 .banner{
-  background: url(../images/banner.jpg) no-repeat 0px 0px;
+  background: url(../images/292-1101021I40276.jpg) no-repeat 0px 0px;
   background-size: cover;
 }
 .top-banner{
@@ -380,10 +380,10 @@ content: "\f111";
   letter-spacing: 2px;
 }
 p.caption{
-  font-size: .9em;
+  font-size: 1em;
   margin: 0.5em 0 0 0;
-  font-style: italic;
-  color: #cbcbcb;
+  font-style: '微軟正黑體' ;
+  color:darkgrey;
 }
 
 
@@ -399,7 +399,7 @@ float: right;
   text-align: left;
 }
 .offer-right {
-  background: url(../images/3.jpg) no-repeat 0px 0px;
+  background: url(../images/im1.jpg) no-repeat 0px 0px;
   background-size: cover;
   float: left;
   min-height: 446px;
@@ -514,7 +514,7 @@ float: right;
 /*-- family --*/
 .family{
   padding: 4em 0;
-  background:url(../images/4.jpg) no-repeat 0px 0px;
+  background:url(../images/12.jpg) no-repeat 0px 0px;
   background-size:cover;
 }
 .family{
