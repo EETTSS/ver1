@@ -115,6 +115,7 @@
 .talk{
 	background-image: url('../images/divbg1.jpg');
 	background-size: cover;
+	color: #ff0;
 	height: 500px;
 }
 .talktext{
