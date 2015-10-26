@@ -4,7 +4,7 @@ $(document).ready(function(){
 			data:{
 				id:$('input').val()
 			},
-			url:'do',
+			url:'../do.php',
 			success:function(data){
 				$('.talktext').text(data);
 			}
