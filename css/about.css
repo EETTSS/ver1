@@ -60,7 +60,7 @@
 }
 
 .line2{
-	
+	height: 300px;
 	display: block;
 	width: 40%;
 	margin: 0 auto;
@@ -99,13 +99,14 @@
 .intro{
 	height: 300px;
 }
-#intro div{
+.intro div{
 	background-color: #000000;
 	background: rgba(0,0,0,0.6);
 	border-radius: 3;
 	height: 250px;
 	width: 80%;
 }
-#intro p{
+.intro p{
+	display: none;
 	text-align: center;
 }
