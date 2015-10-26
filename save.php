@@ -24,5 +24,5 @@ echo $email;
 echo "<br>";
 echo $subject;
 echo "<br>";
-echo $subject;
+echo $message;
 ?>
