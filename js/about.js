@@ -6,7 +6,7 @@ $(document).ready(function(){
 			},
 			url:'do',
 			success:function(data){
-				$('#mm').text(data);
+				$('.talktext').text(data);
 			}
 		});
 		$('#mm').html('loading');
