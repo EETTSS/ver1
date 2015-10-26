@@ -113,6 +113,10 @@
 	text-align: center;
 }
 
+.talk{
+	background-image: url('../images/divbg1.jpg');
+	background-size: cover;
+}
 .talktext{
 	height: 500px;
 }
