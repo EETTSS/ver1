@@ -380,10 +380,10 @@ content: "\f111";
   letter-spacing: 2px;
 }
 p.caption{
-  font-size: .9em;
+  font-size: 1em;
   margin: 0.5em 0 0 0;
-  font-style: italic;
-  color: #cbcbcb;
+  font-style: '微軟正黑體' ;
+  color:darkgrey;
 }
 
 
