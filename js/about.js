@@ -12,8 +12,6 @@ $(document).ready(function(){
 		$('#mm').html('loading');
 	});
 
-	$('#untro div').fade();
-
 	$('.member1').click(functoin(){
 		$('.per1').fadeIn(300,1);
 	});
