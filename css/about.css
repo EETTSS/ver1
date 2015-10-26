@@ -101,17 +101,16 @@
 	text-align: center;
 	display: block;
 	margin:0 auto;
-	background: rgba(0,0,0,0.6);
 }
 .intro div{
 	display: block;
 	margin:0 auto;
-	background-color: #000000;
 	background: rgba(0,0,0,0.6);
 	border-radius: 3;
 	height: 250px;
 	width: 80%;
-	position: absolute;
+	position: relative;
+
 }
 
 
