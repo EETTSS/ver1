@@ -25,7 +25,7 @@ html, body{
    src: url(../fonts/Norican-Regular.ttf)format('truetype');
 }
 .banner{
-  background: url(../images/292-1101021I40276.jpg) no-repeat 0px 0px;
+  background: url(../images/image_banner.jpg) no-repeat 0px 0px;
   background-size: cover;
 }
 .top-banner{
